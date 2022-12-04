@@ -5,6 +5,7 @@ import Feed from './components/Feed';
 import Navbar from './components/Navbar';
 import {Box,Stack,ThemeProvider} from '@mui/material'
 import theme from './components/theme';
+import Add from './components/Add';
 
 const App=()=>{
   return(
@@ -16,6 +17,7 @@ const App=()=>{
           <Feed/>
           <RightBar/>
        </Stack>
+       <Add/>
     </Box>
     </ThemeProvider>
   )
