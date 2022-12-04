@@ -4,7 +4,7 @@ import {Card, CardHeader, Avatar, IconButton,MoreVert, CardMedia, CardContent,Ty
 
 const Post=()=>{
    return (
-      <Card>
+      <Card sx={{margin:5}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: 'red'}} aria-label="recipe">
